@@ -1,7 +1,6 @@
 from flask import Flask, render_template, redirect, request, url_for, session, flash
 from flask_mysqldb import MySQL
 from sklearn.cluster import KMeans
-from flaskwebgui import FlaskUI
 
 app = Flask(__name__)
 
