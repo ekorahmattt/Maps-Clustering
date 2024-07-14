@@ -1,0 +1,5 @@
+1. Setelah extract folder website
+2. Import file sql ke mysql xampp dengan nama database map_cluster
+3. run file main.py (via VScode atau terminal)
+4. Web dapat diakses pada http://127.0.0.1:5000/ alamat IP yang tampil diterminal
+
