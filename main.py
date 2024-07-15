@@ -33,9 +33,9 @@ def index():
         kec.append(list(x)) # Ambil semua data
 
     # Proses clustering menggunakan Kmeans
-    kmeans = KMeans(n_clusters=3)
+    kmeans = KMeans(n_clusters=3, random_state=0)
     kmeans.fit(data)
-    y = kmeans.predict(data)
+    y = kmeans.predict(data).tolist()
 
     # Ambil data kecamatan sesuai hasil clustering kedalam list cluster1 sampai cluster3
     for i in range(len(y)):
